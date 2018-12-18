@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RFRunLoopDemo/RFRunLoopDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RFRuntimeDemo/RFRuntimeDemo.xcodeproj">
    </FileRef>
    <FileRef
