@@ -16,6 +16,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        while (1) {
+            NSLog(@"while begin");
+            NSRunLoop *subRunLoop = [NSRunLoop currentRunLoop];
+            [subRunLoop runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+            NSLog(@"while end");
+        }
+    });
+    
+    
+    
+   
+    
+//    NSMutableString *a = [NSMutableString stringWithString:@"Tom"];
+//    NSLog(@"\\n 定以前：------------------------------------\\n\\a指向的堆中地址：%p；a在栈中的指针地址：%p", a, &a);               //a在栈区
+//    void (^foo)(void) = ^{
+//          a.string = @"Jerry";
+//          NSLog(@"\\n block内部：------------------------------------\\n\\a指向的堆中地址：%p；a在栈中的指针地址：%p", a, &a);               //a在栈区
+//        a = [NSMutableString stringWithString:@"William"];
+//    };
+//    foo();
+//    NSLog(@"\\n 定以后：------------------------------------\\n\\a指向的堆中地址：%p；a在栈中的指针地址：%p", a, &a);
+    
+                         
+    
+    
     //创建监听者
     /*
      第一个参数 CFAllocatorRef allocator：分配存储空间 CFAllocatorGetDefault()默认分配
@@ -94,6 +121,8 @@
     center.y += current.y - previous.y;
     self.view.center = center;
 }
+
+
 
 
 @end
