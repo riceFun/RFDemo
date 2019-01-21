@@ -31,5 +31,15 @@ target 'RFRuntimeDemo' do
     
 end
 
+target 'RFMVC_MVP_MVVM' do
+    platform :ios, '9.0'
+    project 'RFMVC_MVP_MVVM/RFMVC_MVP_MVVM.xcodeproj'
+    pod 'Masonry', '~> 1.0.2'
+    pod 'SVProgressHUD'
+    
+end
+
+
+
 
 
