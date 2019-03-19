@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21E1C4032213BBC20007FE70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C4022213BBC20007FE70 /* AppDelegate.m */; };
+		21E1C4062213BBC20007FE70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C4052213BBC20007FE70 /* ViewController.m */; };
+		21E1C4092213BBC20007FE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E1C4072213BBC20007FE70 /* Main.storyboard */; };
+		21E1C40C2213BBC20007FE70 /* RFDataLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C40A2213BBC20007FE70 /* RFDataLearning.xcdatamodeld */; };
+		21E1C40E2213BBCA0007FE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E1C40D2213BBCA0007FE70 /* Assets.xcassets */; };
+		21E1C4112213BBCA0007FE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E1C40F2213BBCA0007FE70 /* LaunchScreen.storyboard */; };
+		21E1C4142213BBCA0007FE70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C4132213BBCA0007FE70 /* main.m */; };
+		21E1C41E2213BBCA0007FE70 /* RFDataLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C41D2213BBCA0007FE70 /* RFDataLearningTests.m */; };
+		21E1C4292213BBCA0007FE70 /* RFDataLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E1C4282213BBCA0007FE70 /* RFDataLearningUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21E1C41A2213BBCA0007FE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21E1C3F62213BBC20007FE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E1C3FD2213BBC20007FE70;
+			remoteInfo = RFDataLearning;
+		};
+		21E1C4252213BBCA0007FE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21E1C3F62213BBC20007FE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E1C3FD2213BBC20007FE70;
+			remoteInfo = RFDataLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21E1C3FE2213BBC20007FE70 /* RFDataLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFDataLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E1C4012213BBC20007FE70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21E1C4022213BBC20007FE70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21E1C4042213BBC20007FE70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21E1C4052213BBC20007FE70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21E1C4082213BBC20007FE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21E1C40B2213BBC20007FE70 /* RFDataLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RFDataLearning.xcdatamodel; sourceTree = "<group>"; };
+		21E1C40D2213BBCA0007FE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21E1C4102213BBCA0007FE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21E1C4122213BBCA0007FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E1C4132213BBCA0007FE70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21E1C4192213BBCA0007FE70 /* RFDataLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDataLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E1C41D2213BBCA0007FE70 /* RFDataLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDataLearningTests.m; sourceTree = "<group>"; };
+		21E1C41F2213BBCA0007FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E1C4242213BBCA0007FE70 /* RFDataLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDataLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E1C4282213BBCA0007FE70 /* RFDataLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDataLearningUITests.m; sourceTree = "<group>"; };
+		21E1C42A2213BBCA0007FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21E1C3FB2213BBC20007FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4162213BBCA0007FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4212213BBCA0007FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E1C3F52213BBC20007FE70 = {
+			isa = PBXGroup;
+			children = (
+				21E1C4002213BBC20007FE70 /* RFDataLearning */,
+				21E1C41C2213BBCA0007FE70 /* RFDataLearningTests */,
+				21E1C4272213BBCA0007FE70 /* RFDataLearningUITests */,
+				21E1C3FF2213BBC20007FE70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21E1C3FF2213BBC20007FE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21E1C3FE2213BBC20007FE70 /* RFDataLearning.app */,
+				21E1C4192213BBCA0007FE70 /* RFDataLearningTests.xctest */,
+				21E1C4242213BBCA0007FE70 /* RFDataLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21E1C4002213BBC20007FE70 /* RFDataLearning */ = {
+			isa = PBXGroup;
+			children = (
+				21E1C4012213BBC20007FE70 /* AppDelegate.h */,
+				21E1C4022213BBC20007FE70 /* AppDelegate.m */,
+				21E1C4042213BBC20007FE70 /* ViewController.h */,
+				21E1C4052213BBC20007FE70 /* ViewController.m */,
+				21E1C4072213BBC20007FE70 /* Main.storyboard */,
+				21E1C40D2213BBCA0007FE70 /* Assets.xcassets */,
+				21E1C40F2213BBCA0007FE70 /* LaunchScreen.storyboard */,
+				21E1C4122213BBCA0007FE70 /* Info.plist */,
+				21E1C4132213BBCA0007FE70 /* main.m */,
+				21E1C40A2213BBC20007FE70 /* RFDataLearning.xcdatamodeld */,
+			);
+			path = RFDataLearning;
+			sourceTree = "<group>";
+		};
+		21E1C41C2213BBCA0007FE70 /* RFDataLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				21E1C41D2213BBCA0007FE70 /* RFDataLearningTests.m */,
+				21E1C41F2213BBCA0007FE70 /* Info.plist */,
+			);
+			path = RFDataLearningTests;
+			sourceTree = "<group>";
+		};
+		21E1C4272213BBCA0007FE70 /* RFDataLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21E1C4282213BBCA0007FE70 /* RFDataLearningUITests.m */,
+				21E1C42A2213BBCA0007FE70 /* Info.plist */,
+			);
+			path = RFDataLearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21E1C3FD2213BBC20007FE70 /* RFDataLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E1C42D2213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearning" */;
+			buildPhases = (
+				21E1C3FA2213BBC20007FE70 /* Sources */,
+				21E1C3FB2213BBC20007FE70 /* Frameworks */,
+				21E1C3FC2213BBC20007FE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFDataLearning;
+			productName = RFDataLearning;
+			productReference = 21E1C3FE2213BBC20007FE70 /* RFDataLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21E1C4182213BBCA0007FE70 /* RFDataLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E1C4302213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearningTests" */;
+			buildPhases = (
+				21E1C4152213BBCA0007FE70 /* Sources */,
+				21E1C4162213BBCA0007FE70 /* Frameworks */,
+				21E1C4172213BBCA0007FE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E1C41B2213BBCA0007FE70 /* PBXTargetDependency */,
+			);
+			name = RFDataLearningTests;
+			productName = RFDataLearningTests;
+			productReference = 21E1C4192213BBCA0007FE70 /* RFDataLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21E1C4232213BBCA0007FE70 /* RFDataLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E1C4332213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearningUITests" */;
+			buildPhases = (
+				21E1C4202213BBCA0007FE70 /* Sources */,
+				21E1C4212213BBCA0007FE70 /* Frameworks */,
+				21E1C4222213BBCA0007FE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E1C4262213BBCA0007FE70 /* PBXTargetDependency */,
+			);
+			name = RFDataLearningUITests;
+			productName = RFDataLearningUITests;
+			productReference = 21E1C4242213BBCA0007FE70 /* RFDataLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21E1C3F62213BBC20007FE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = riceFun;
+				TargetAttributes = {
+					21E1C3FD2213BBC20007FE70 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					21E1C4182213BBCA0007FE70 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 21E1C3FD2213BBC20007FE70;
+					};
+					21E1C4232213BBCA0007FE70 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 21E1C3FD2213BBC20007FE70;
+					};
+				};
+			};
+			buildConfigurationList = 21E1C3F92213BBC20007FE70 /* Build configuration list for PBXProject "RFDataLearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21E1C3F52213BBC20007FE70;
+			productRefGroup = 21E1C3FF2213BBC20007FE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21E1C3FD2213BBC20007FE70 /* RFDataLearning */,
+				21E1C4182213BBCA0007FE70 /* RFDataLearningTests */,
+				21E1C4232213BBCA0007FE70 /* RFDataLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21E1C3FC2213BBC20007FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E1C4112213BBCA0007FE70 /* LaunchScreen.storyboard in Resources */,
+				21E1C40E2213BBCA0007FE70 /* Assets.xcassets in Resources */,
+				21E1C4092213BBC20007FE70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4172213BBCA0007FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4222213BBCA0007FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21E1C3FA2213BBC20007FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E1C40C2213BBC20007FE70 /* RFDataLearning.xcdatamodeld in Sources */,
+				21E1C4062213BBC20007FE70 /* ViewController.m in Sources */,
+				21E1C4142213BBCA0007FE70 /* main.m in Sources */,
+				21E1C4032213BBC20007FE70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4152213BBCA0007FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E1C41E2213BBCA0007FE70 /* RFDataLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E1C4202213BBCA0007FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E1C4292213BBCA0007FE70 /* RFDataLearningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E1C41B2213BBCA0007FE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21E1C3FD2213BBC20007FE70 /* RFDataLearning */;
+			targetProxy = 21E1C41A2213BBCA0007FE70 /* PBXContainerItemProxy */;
+		};
+		21E1C4262213BBCA0007FE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21E1C3FD2213BBC20007FE70 /* RFDataLearning */;
+			targetProxy = 21E1C4252213BBCA0007FE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21E1C4072213BBC20007FE70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21E1C4082213BBC20007FE70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21E1C40F2213BBCA0007FE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21E1C4102213BBCA0007FE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21E1C42B2213BBCA0007FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21E1C42C2213BBCA0007FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21E1C42E2213BBCA0007FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "riceFun.RFMVC-MVP-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21E1C42F2213BBCA0007FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "riceFun.RFMVC-MVP-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21E1C4312213BBCA0007FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = riceFun.RFDataLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDataLearning.app/RFDataLearning";
+			};
+			name = Debug;
+		};
+		21E1C4322213BBCA0007FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = riceFun.RFDataLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDataLearning.app/RFDataLearning";
+			};
+			name = Release;
+		};
+		21E1C4342213BBCA0007FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = riceFun.RFDataLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFDataLearning;
+			};
+			name = Debug;
+		};
+		21E1C4352213BBCA0007FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				INFOPLIST_FILE = RFDataLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = riceFun.RFDataLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFDataLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E1C3F92213BBC20007FE70 /* Build configuration list for PBXProject "RFDataLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E1C42B2213BBCA0007FE70 /* Debug */,
+				21E1C42C2213BBCA0007FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E1C42D2213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E1C42E2213BBCA0007FE70 /* Debug */,
+				21E1C42F2213BBCA0007FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E1C4302213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E1C4312213BBCA0007FE70 /* Debug */,
+				21E1C4322213BBCA0007FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E1C4332213BBCA0007FE70 /* Build configuration list for PBXNativeTarget "RFDataLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E1C4342213BBCA0007FE70 /* Debug */,
+				21E1C4352213BBCA0007FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21E1C40A2213BBC20007FE70 /* RFDataLearning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21E1C40B2213BBC20007FE70 /* RFDataLearning.xcdatamodel */,
+			);
+			currentVersion = 21E1C40B2213BBC20007FE70 /* RFDataLearning.xcdatamodel */;
+			path = RFDataLearning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21E1C3F62213BBC20007FE70 /* Project object */;
+}

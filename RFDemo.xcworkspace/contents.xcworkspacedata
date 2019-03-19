@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RFDataLearnX.playground">
+   </FileRef>
+   <FileRef
+      location = "group:RFDataLearning/RFDataLearning.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RFMVC_MVP_MVVM/RFMVC_MVP_MVVM.xcodeproj">
    </FileRef>
    <FileRef
